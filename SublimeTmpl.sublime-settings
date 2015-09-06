@@ -1,0 +1,11 @@
+{
+  "js": {
+    "syntax": "Packages/Babel/JavaScript (Babel).tmLanguage"
+  },
+  "less": {
+    "syntax": "Packages/LESS/LESS.tmLanguage"
+  },
+  "vue": {
+    "syntax": "Packages/vue-syntax-highlight/vue.tmLanguage"
+  }
+}

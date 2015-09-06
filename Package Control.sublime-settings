@@ -1,0 +1,32 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoFileName",
+		"Babel",
+		"Better Completion",
+		"DocBlockr",
+		"Emmet",
+		"Fix Mac Path",
+		"Git",
+		"HTML-CSS-JS Prettify",
+		"JavaScript Patterns",
+		"JsFormat",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Oceanic Next Color Scheme",
+		"Package Control",
+		"ReactJS",
+		"Semi",
+		"Seti_UI",
+		"SideBarEnhancements",
+		"Stylus",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-jshint",
+		"SublimeTmpl"
+	]
+}
