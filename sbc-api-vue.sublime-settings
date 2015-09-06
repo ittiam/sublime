@@ -1,0 +1,119 @@
+// http://devdocs.io/vue/
+{
+   "scope": "text.html.vue",
+
+   "completions":
+   [
+      // Component Options
+      ["vue\tVue", "new Vue({\n\t$0\n})" ],
+        // Data
+      ["data\tVue", "data: {\n\t$0\n}"],
+      ["methods\tVue", "methods: {\n\t$0\n}"],
+      ["props\tVue", "props: [$0]"],
+      ["computed\tVue", "computed: {\n\t$0\n}"],
+        // DOM
+        ["el\tVue", "el: '$0'"],
+        ["template\tVue", "template: '$0'"],
+        ["replace\tVue", "replace: ${0:false}"],
+        // Lifecycle
+        ["created\tVue", "created: function() {\n\t$0\n}"],
+        ["beforeCompile\tVue", "beforeCompile: function() {\n\t$0\n}"],
+        ["compiled\tVue", "compiled: function() {\n\t$0\n}"],
+        ["ready\tVue", "ready: function() {\n\t$0\n}"],
+        ["attached\tVue", "attached: function() {\n\t$0\n}"],
+        ["detached\tVue", "detached: function() {\n\t$0\n}"],
+        ["beforeDestroy\tVue", "beforeDestroy: function() {\n\t$0\n}"],
+        ["destroyed\tVue", "destroyed: function() {\n\t$0\n}"],
+        // Assets
+        // Others
+        ["inherit\tVue", "inherit: ${0:true}"],
+        ["events\tVue", "events: {\n\t$0\n}"],
+        ["watch\tVue", "watch: {\n\t$0\n}"],
+        ["mixins\tVue", "mixins: [$0]"],
+        ["name\tVue", "name: '$0'"],
+      // Directive
+      ["v-text\tVue", "v-text=\"$0\""],
+      ["v-html\tVue", "v-html=\"$0\""],
+      ["v-show\tVue", "v-show=\"$0\""],
+      ["v-class\tVue", "v-class=\"$0\""],
+      ["v-attr\tVue", "v-attr=\"$0\""],
+      ["v-style\tVue", "v-style=\"$0\""],
+      ["v-on\tVue", "v-on=\"$0\""],
+      ["v-model\tVue", "v-model=\"$0\""],
+      ["v-if\tVue", "v-if=\"$0\""],
+      ["v-repeat\tVue", "v-repeat=\"$0\""],
+      ["v-transition\tVue", "v-transition=\"$0\""],
+      ["v-ref\tVue", "v-ref=\"$0\""],
+      ["v-el\tVue", "v-el=\"$0\""],
+      ["v-pre\tVue", "v-pre=\"$0\""],
+      ["v-cloak\tVue", "v-cloak=\"$0\""],
+      ["track-by\tVue", "track-by=\"$0\""],
+      ["stagger\tVue", "stagger=\"$0\""],
+      // Filters
+      ["capitalize\tVue", "capitalize"],
+      ["uppercase\tVue", "uppercase"],
+      ["lowercase\tVue", "lowercase"],
+      ["currency\tVue", "currency"],
+      ["pluralize\tVue", "pluralize"],
+      ["json\tVue", "json"],
+      ["key\tVue", "key"],
+      ["filterBy\tVue", "filterBy"],
+      ["orderBy\tVue", "orderBy"],
+      // Global API
+      ["Vue.config\tVue", "Vue.config"],
+      ["Vue.extend\tVue", "Vue.extend({\n\t$0\n})"],
+      ["Vue.nextTick\tVue", "Vue.nextTick(${0:callback})"],
+      ["Vue.directive\tVue", "Vue.directive(${0:id}, {\n\t$1\n})"],
+      ["Vue.elementDirective\tVue", "Vue.elementDirective(${0:id}, {\n\t$1\n})"],
+      ["Vue.filter\tVue", "Vue.filter(${0:id}, function() {\n\t$1\n})"],
+      ["Vue.component\tVue", "Vue.component(${0:id}, function() {\n\t$1\n})"],
+      ["Vue.transition\tVue", "Vue.transition(${0:id}, {\n\t$1\n})"],
+      ["Vue.partial\tVue", "Vue.partial(${0:id})"],
+      ["Vue.use\tVue", "Vue.partial(${0:plugin})"],
+      ["Vue.util\tVue", "Vue.util"],
+      // Instance Methods
+        // DOM
+        ["$watch\tVue", "\\$watch(${0:expOrFn}, function(newVal, oldVal) {\n\t$1\n})"],
+        ["$get\tVue", "\\$get(${0:expression})"],
+        ["$set\tVue", "\\$set(${0:keypath}, ${1:value})"],
+        ["$add\tVue", "\\$add(${0:keypath}, ${1:value})"],
+        ["$delete\tVue", "\\$delete(${0:keypath})"],
+        ["$eval\tVue", "\\$eval(${0:expression})"],
+        ["$interpolate\tVue", "\\$interpolate(${0:templateString})"],
+        ["$log\tVue", "\\$log(${0:keypath})"],
+        // Events
+        ["$dispatch\tVue", "\\$dispatch(${0:event}, $1)"],
+        ["$broadcast\tVue", "\\$broadcast(${0:event}, $1)"],
+        ["$emit\tVue", "\\$emit(${0:event}, $1)"],
+        ["$on\tVue", "\\$on(${0:event}, ${1:callback})"],
+        ["$once\tVue", "\\$once(${0:event}, ${1:callback})"],
+        ["$off\tVue", "\\$off(${0:event})"],
+        // Dom
+        ["$appendTo\tVue", "\\$appendTo(${0:element|selector})"],
+        ["$before\tVue", "\\$before(${0:element|selector})"],
+        ["$after\tVue", "\\$after(${0:element|selector})"],
+        ["$remove\tVue", "\\$remove(${0:callback})"],
+        ["$nextTick\tVue", "\\$nextTick(function() {\n\t$0\n})"],
+        // Lifecycle
+        ["$mount\tVue", "\\$mount(${0:element|selector})"],
+        ["$destroy\tVue", "\\$destroy(${0:true})"],
+        ["$compile\tVue", "\\$compile(${0:element})"],
+        ["$addChild\tVue", "\\$addChild($0)"],
+      // Instance Properties
+      ["$el\tVue", "\\$el"],
+      ["$data\tVue", "\\$data"],
+      ["$options\tVue", "\\$options"],
+      ["$parent\tVue", "\\$parent"],
+      ["$root\tVue", "\\$root"],
+      ["$children\tVue", "\\$children"],
+      ["$\tVue", "\\$"],
+      ["$$\tVue", "\\$$"],
+      ["$index\tVue", "\\$index"],
+      ["$key\tVue", "\\$key"],
+      ["$value\tVue", "\\$value"],
+      // Special Elements
+      ["component\tVue", "<component is=\"{{${0:componentId}}}\"></component>"],
+      ["content\tVue", "<content select=\"${0:selector}\"></content>"],
+      ["partial\tVue", "<partial name=\"${0:my-partial}\"></partial>"]
+   ]
+}

@@ -52,7 +52,7 @@
   }
 }(jQuery, window))]]></content>
 
-  <tabTrigger>jq-boilerplate</tabTrigger>
+  <tabTrigger>$.plugin</tabTrigger>
 
   <scope>source.js</scope>
   <description>jQuery Plugin Boilerplate</description>
