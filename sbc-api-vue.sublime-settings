@@ -7,10 +7,10 @@
       // Component Options
       ["vue\tVue", "new Vue({\n\t$0\n})" ],
         // Data
-      ["data\tVue", "data: {\n\t$0\n}"],
-      ["methods\tVue", "methods: {\n\t$0\n}"],
-      ["props\tVue", "props: [$0]"],
-      ["computed\tVue", "computed: {\n\t$0\n}"],
+        ["data\tVue", "data: {\n\t$0\n}"],
+        ["methods\tVue", "methods: {\n\t$0\n}"],
+        ["props\tVue", "props: [$0]"],
+        ["computed\tVue", "computed: {\n\t$0\n}"],
         // DOM
         ["el\tVue", "el: '$0'"],
         ["template\tVue", "template: '$0'"],
@@ -47,8 +47,14 @@
       ["v-el\tVue", "v-el=\"$0\""],
       ["v-pre\tVue", "v-pre=\"$0\""],
       ["v-cloak\tVue", "v-cloak=\"$0\""],
+      // v-repeat Directive params
       ["track-by\tVue", "track-by=\"$0\""],
       ["stagger\tVue", "stagger=\"$0\""],
+      // v-model Directive params
+      ["lazy\tVue", "lazy"],
+      ["number\tVue", "number"],
+      ["options\tVue", "options=\"${0:myOptions}\""],
+      ["debounce\tVue", "debounce=\"${0:number}\""],
       // Filters
       ["capitalize\tVue", "capitalize"],
       ["uppercase\tVue", "uppercase"],

@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -12,7 +13,7 @@
 		"Fix Mac Path",
 		"Git",
 		"HTML-CSS-JS Prettify",
-		"JavaScript Patterns",
+		"JavaScript & NodeJS Snippets",
 		"JsFormat",
 		"Markdown Preview",
 		"MarkdownEditing",
@@ -22,11 +23,11 @@
 		"Semi",
 		"Seti_UI",
 		"SideBarEnhancements",
-		"Stylus",
+		"StandardFormat",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
-		"SublimeLinter-jshint",
+		"SublimeLinter-contrib-standard",
 		"SublimeTmpl"
 	]
 }

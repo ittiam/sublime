@@ -13,12 +13,12 @@
                 "excludes": []
             },
             "jshint": {
-                "@disable": false,
+                "@disable": true,
                 "args": [],
                 "excludes": []
             },
             "standard": {
-                "@disable": true,
+                "@disable": false,
                 "args": [],
                 "excludes": "*.html"
             }
