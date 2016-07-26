@@ -1,7 +1,7 @@
 Default (OSX).sublime-keymap
-Package Control.merged-ca-bundle
-SublimeLinter
-Package Control.system-ca-bundle
-Package Control.cache
-Package Control.user-ca-bundle
-Package Control.last-run
+*.merged-ca-bundle
+*.system-ca-bundle
+*.cache
+*.txt
+*.last-run
+*.user-ca-bundle
