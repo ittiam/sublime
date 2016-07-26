@@ -1,0 +1,10 @@
+{
+	"extensions":
+	[
+		"html",
+		"htm",
+		"html.erb",
+		"xtpl",
+		"ftl"
+	]
+}

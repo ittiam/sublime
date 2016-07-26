@@ -5,7 +5,17 @@
   "less": {
     "syntax": "Packages/LESS/LESS.tmLanguage"
   },
+  "scss": {
+    "syntax": "Packages/SCSS/SCSS.tmLanguage"
+  },
   "vue": {
     "syntax": "Packages/vue-syntax-highlight/vue.tmLanguage"
-  }
+  },
+  "disable_keymap_actions": false, // "all"; "html,css"
+    "date_format" : "%Y-%m-%d %H:%M:%S",
+    "attr": {
+      "author": "czh",
+      "email": "ittiamc@gmail.com",
+      "link": "http://example.org"
+    }
 }

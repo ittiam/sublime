@@ -1,8 +1,7 @@
 {
 	"extensions":
 	[
-		"js",
-		"jsx",
-		"es"
+		"vue",
+		"we"
 	]
 }

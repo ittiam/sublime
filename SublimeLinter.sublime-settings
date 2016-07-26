@@ -8,27 +8,19 @@
         "lint_mode": "load/save",
         "linters": {
             "eslint": {
-                "@disable": true,
-                "args": [],
-                "excludes": []
-            },
-            "jshint": {
-                "@disable": true,
-                "args": [],
-                "excludes": []
-            },
-            "standard": {
                 "@disable": false,
                 "args": [],
-                "excludes": "*.html"
+                "excludes": []
             }
         },
-        "mark_style": "outline",
+        "mark_style": "squiggly underline",
         "no_column_highlights_line": false,
         "passive_warnings": false,
         "paths": {
             "linux": [],
-            "osx": [],
+            "osx": [
+                "/Users/am/.nvm/versions/node/v4.4.0/bin/"
+            ],
             "windows": []
         },
         "python_paths": {
