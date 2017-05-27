@@ -5,6 +5,7 @@
 		"htm",
 		"html.erb",
 		"xtpl",
-		"ftl"
+		"ftl",
+		"hogan"
 	]
 }
