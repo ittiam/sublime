@@ -1,0 +1,39 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"SublimeLinter-contrib-eslint"
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"AutoFileName",
+		"ayu",
+		"Babel",
+		"BracketHighlighter",
+		"ChangeQuotes",
+		"DocBlockr",
+		"Dotfiles Syntax Highlighting",
+		"Emmet",
+		"GitGutter",
+		"GitSavvy",
+		"HTML-CSS-JS Prettify",
+		"JavaScript Completions",
+		"MarkdownEditing",
+		"Material Theme",
+		"Oceanic Next Color Scheme",
+		"Package Control",
+		"ReactJS",
+		"SCSS",
+		"Semi",
+		"Seti_UI",
+		"SideBarEnhancements",
+		"Smarty",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"SublimeTmpl",
+		"Terminal",
+		"Vue Syntax Highlight"
+	]
+}

@@ -1,0 +1,31 @@
+<snippet>
+  <content><![CDATA[
+var req = new XMLHttpRequest()
+req.error = function(cb) {}
+var method = '${1:GET}'
+
+req.url = ${2:url}
+req.open(method, url)
+
+req.onload = function() {}
+
+req.onerror = function() {}
+
+req.onreadystatechange = function() {
+  if(4 === req.readyState) {
+    var type = req.status / 100 | 0
+    if(2 === type) {
+      $4
+    } else {
+      $5
+    }
+  }
+}
+
+req.send(${3:data})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>xhr</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
