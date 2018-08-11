@@ -6,6 +6,7 @@
 		"html.erb",
 		"xtpl",
 		"ftl",
-		"hogan"
+		"hogan",
+		"njk"
 	]
 }

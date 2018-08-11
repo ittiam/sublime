@@ -7,6 +7,7 @@
 	[
 		"AdvancedNewFile",
 		"AutoFileName",
+		"ayu",
 		"Babel",
 		"BracketHighlighter",
 		"ChangeQuotes",
@@ -25,10 +26,11 @@
 		"SCSS",
 		"Semi",
 		"Seti_UI",
+		"SFTP",
 		"SideBarEnhancements",
 		"Smarty",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-eslint",
 		"SublimeTmpl",
 		"Terminal",
 		"Vue Syntax Highlight"
