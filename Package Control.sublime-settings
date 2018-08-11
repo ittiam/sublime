@@ -2,9 +2,11 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"SublimeLinter-contrib-eslint"
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AdvancedNewFile",
 		"AutoFileName",
 		"ayu",
@@ -26,7 +28,6 @@
 		"SCSS",
 		"Semi",
 		"Seti_UI",
-		"SFTP",
 		"SideBarEnhancements",
 		"Smarty",
 		"SublimeLinter",

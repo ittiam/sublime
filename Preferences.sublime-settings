@@ -16,9 +16,7 @@
 		"Thumbs.db",
 		".Spotlight-V100",
 		".Trashes",
-		"*.un~",
-		"node_modules",
-		"dist"
+		"*.un~"
 	],
 	"folder_exclude_patterns":
 	[
@@ -33,6 +31,8 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"Markdown",
+		"SublimeLinter-contrib-eslint",
 		"Vintage"
 	],
 	"line_padding_bottom": 3,
